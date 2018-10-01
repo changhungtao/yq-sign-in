@@ -111,8 +111,8 @@ func bindataBuildAssetmanifestjson() (*asset, error) {
 		name: "build/asset-manifest.json",
 		size: 196,
 		md5checksum: "",
-		mode: os.FileMode(438),
-		modTime: time.Unix(1538375618, 0),
+		mode: os.FileMode(420),
+		modTime: time.Unix(1538380091, 0),
 	}
 
 	a := &asset{bytes: bytes, info: info}
@@ -273,7 +273,7 @@ func bindataBuildFaviconico() (*asset, error) {
 		size: 3870,
 		md5checksum: "",
 		mode: os.FileMode(420),
-		modTime: time.Unix(1538375611, 0),
+		modTime: time.Unix(1538380081, 0),
 	}
 
 	a := &asset{bytes: bytes, info: info}
@@ -324,7 +324,7 @@ func bindataBuildIndexhtml() (*asset, error) {
 		size: 958,
 		md5checksum: "",
 		mode: os.FileMode(420),
-		modTime: time.Unix(1538375618, 0),
+		modTime: time.Unix(1538380091, 0),
 	}
 
 	a := &asset{bytes: bytes, info: info}
@@ -363,7 +363,7 @@ func bindataBuildManifestjson() (*asset, error) {
 		size: 317,
 		md5checksum: "",
 		mode: os.FileMode(420),
-		modTime: time.Unix(1538375611, 0),
+		modTime: time.Unix(1538380081, 0),
 	}
 
 	a := &asset{bytes: bytes, info: info}
@@ -441,7 +441,7 @@ func bindataBuildServiceworkerjs() (*asset, error) {
 		size: 3164,
 		md5checksum: "",
 		mode: os.FileMode(420),
-		modTime: time.Unix(1538375618, 0),
+		modTime: time.Unix(1538380091, 0),
 	}
 
 	a := &asset{bytes: bytes, info: info}
@@ -1338,7 +1338,7 @@ func bindataBuildStaticCssMain3848907dcss() (*asset, error) {
 		size: 191517,
 		md5checksum: "",
 		mode: os.FileMode(420),
-		modTime: time.Unix(1538375618, 0),
+		modTime: time.Unix(1538380091, 0),
 	}
 
 	a := &asset{bytes: bytes, info: info}
@@ -2794,7 +2794,7 @@ func bindataBuildStaticCssMain3848907dcssmap() (*asset, error) {
 		size: 308010,
 		md5checksum: "",
 		mode: os.FileMode(420),
-		modTime: time.Unix(1538375618, 0),
+		modTime: time.Unix(1538380091, 0),
 	}
 
 	a := &asset{bytes: bytes, info: info}
@@ -5818,7 +5818,7 @@ func bindataBuildStaticJsMainc8d63b1cjs() (*asset, error) {
 		size: 281729,
 		md5checksum: "",
 		mode: os.FileMode(420),
-		modTime: time.Unix(1538375618, 0),
+		modTime: time.Unix(1538380091, 0),
 	}
 
 	a := &asset{bytes: bytes, info: info}
@@ -20175,7 +20175,7 @@ func bindataBuildStaticJsMainc8d63b1cjsmap() (*asset, error) {
 		size: 1620749,
 		md5checksum: "",
 		mode: os.FileMode(420),
-		modTime: time.Unix(1538375618, 0),
+		modTime: time.Unix(1538380091, 0),
 	}
 
 	a := &asset{bytes: bytes, info: info}

@@ -27,14 +27,14 @@ var page = struct {
 func main() {
 	app := iris.New()
 
-	app.RegisterView(iris.HTML("./build", ".html"))
+	app.RegisterView(iris.HTML("./build", ".html").Binary(Asset, AssetNames))
 	app.Get("/", func(ctx iris.Context) {
 		ctx.ViewData("Page", page)
 		ctx.View("index.html")
 	})
 
-	assetHandler := app.StaticHandler("./build", false, false)
-	app.SPA(assetHandler)
+	assetHandler := iris.StaticEmbeddedHandler("./build", Asset, AssetNames, false)
+	app.SPA(assetHandler).AddIndexName("index.html")
 
 	orm, err := xorm.NewEngine("sqlite3", "./database.db")
 	if err != nil {
